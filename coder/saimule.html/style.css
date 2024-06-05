@@ -1,0 +1,16 @@
+*{
+   
+}
+ 
+#sai{
+    color:red;
+}
+.mule{
+    color:blue;
+}
+table{
+    border:solid;
+    padding: 15px;
+    border-radius: 10%;
+    background-color: bisque;
+}

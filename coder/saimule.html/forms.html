@@ -1,0 +1,86 @@
+<!DOCTYPE html><html>
+    <head>
+     <title>Form filling</title>
+     <link href="style.css" rel="stylesheet">
+    
+
+    </head>
+    <body>
+        <marquee speed="20">welcome to DRF</marquee>
+            <h2 align="center">Registration Form</h2>
+            <table align="center">
+                <tr>
+                    <td id="sai">Name</td>
+                    <td><input type="text" placeholder="Enter your name" pattern="[a-zA-Z]" required></td>
+                </tr>
+                <tr>
+                    <td class="mule">
+                        Phone Number
+                    </td>
+                    <td>   
+                            <input type="text" placeholder="Enter your phone number" pattern="[6-9]{1}[0-9]{9}" required>   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mule">
+                        Email address
+                    </td>
+                    <td>   
+                            <input type="Email" placeholder="Enter your email address">   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mule">
+                        Date of Birth
+                    </td>
+                    <td>   
+                            <input type="date" placeholder="Enter your DOB">   
+                    </td>
+                </tr>
+                <tr>
+                    <td> Father's Name</td>
+                    <td><input type="text" placeholder="Enter your father's name" pattern="[a-zA-Z]" required></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td><input type="text" placeholder="Enter your mother's name" pattern="[a-zA-Z]" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        Address
+                    </td>
+                    <td>
+                            <textarea required></textarea>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="Radio" name="gender">Male
+                          <input type="Radio" name="gender">Female
+                         <input type="Radio" name="gender">Prefer Not To Say
+                        </td>
+                        <tr><td>Upload your photo</td>
+                        <td><input type="file"></td></tr>
+                    </tr>
+                <tr>
+                    <td>select a course</td>
+                    <td><select><option>Select</option>
+                        <option>Full stack Development</option>
+                    <option>Data Science</option>
+                <option>Machine learning</option></select></td>
+                </tr>
+                <tr>
+                    <td>Highest Qualification</td>
+                    <td><input list="len"><datalist id="len">
+                        <option>Post Graduation</option>
+                    <option>Graduation</option>
+                <option>Intermediate</option></datalist></td>
+                </tr>
+                <tr><td>
+                    <button type="button" align="center">Reset</button></td><td>
+              <button type="button">Submit</button></td></tr>
+            </table>
+        
+
+    </body>
+</html>
